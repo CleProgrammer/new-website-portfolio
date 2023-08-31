@@ -1,0 +1,68 @@
+.section-meet-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+
+.section-meet-me::before {
+    background-image: url('../images/meetme2.jpg');
+    background-size: cover;
+    position: absolute;
+    content: '';
+    inset: 0;
+} 
+
+.section-meet-me .section-meet-me-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 60vh;
+}
+
+.section-meet-me .section-meet-me-main .introduce-myself {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    font-weight: bold;
+    isolation: isolate;
+}
+
+.section-meet-me .introduce-myself .text1 {
+    color: rgb(255, 255, 255);
+    width: 80%;
+    font-size: 4.0vw;
+    text-shadow: 3px 2px rgb(71, 71, 71);
+    text-align: start;
+}
+
+.section-meet-me .introduce-myself .text2 {
+    text-align: start;
+    width: 80%;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(54, 54, 54);
+}
+
+.section-meet-me .introduce-section-cert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    height: 90%;
+    isolation: isolate;
+}
+
+.section-meet-me .introduce-section-cert img {
+    width: 40%;
+    border: 3px solid white;
+}
+

@@ -1,0 +1,29 @@
+.welcome-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 40vh;
+}
+
+.welcome-main .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15vw;
+    height: 26vh;
+    font-size: 8.5vh;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(21, 92, 184);
+    border-radius: 6%;
+}
+
+.welcome-main .about-me2 {
+    width: 75%;
+    font-size: 1.7vw;
+    font-weight: 600;
+    color: rgb(141, 141, 141);
+}
