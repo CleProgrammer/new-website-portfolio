@@ -22,8 +22,53 @@
 }
 
 .welcome-main .about-me2 {
-    width: 75%;
-    font-size: 21px;
+    width: 80%;
+    font-size: 1.4em;
     font-weight: 600;
     color: rgb(141, 141, 141);
 }
+
+
+
+/*TABLET*/
+@media ( max-width: 820px ) {
+    .welcome-main {
+        height: 200px;
+    }
+
+    .welcome-main .about-me {
+        width: 150px;
+        height: 150px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .welcome-main .about-me2 {
+        width: 70%;
+        font-size: 1em;
+    }
+}
+
+/*MOBILE*/
+@media ( max-width: 414px ) {
+    .welcome-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        height: 120px;
+    }
+    
+    .welcome-main .about-me {
+        display: none;
+    }
+    
+    .welcome-main .about-me2 {
+        width: 100%;
+        font-size: 0.6em;
+        font-weight: 600;
+        color: rgb(141, 141, 141);
+    }
+    
+}
+
