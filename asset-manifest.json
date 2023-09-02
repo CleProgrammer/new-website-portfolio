@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-website-portfolio/static/css/main.f30c970d.css",
-    "main.js": "/new-website-portfolio/static/js/main.b1e0bfa4.js",
+    "main.css": "/new-website-portfolio/static/css/main.5c63aabb.css",
+    "main.js": "/new-website-portfolio/static/js/main.3009dbb2.js",
     "static/js/787.d37cafcc.chunk.js": "/new-website-portfolio/static/js/787.d37cafcc.chunk.js",
     "static/media/meetme2.jpg": "/new-website-portfolio/static/media/meetme2.aabc7b5e5ca20f03973d.jpg",
     "static/media/Certificado Banco de Dados.jpg": "/new-website-portfolio/static/media/Certificado Banco de Dados.f5ac11ee0232d37bd6b7.jpg",
@@ -14,13 +14,15 @@
     "static/media/siteportfólio.png": "/new-website-portfolio/static/media/siteportfólio.9842e9360feba0a0ec84.png",
     "static/media/compras.png": "/new-website-portfolio/static/media/compras.e1de8dcc92c528770563.png",
     "static/media/cb-logo-blue.png": "/new-website-portfolio/static/media/cb-logo-blue.20c5f607bbb4cfcece40.png",
+    "static/media/openmenumobile.png": "/new-website-portfolio/static/media/openmenumobile.efc3a1cc3b1c5398ba3b.png",
+    "static/media/openmenumobilerotate.png": "/new-website-portfolio/static/media/openmenumobilerotate.8e41213262774577bb2a.png",
     "index.html": "/new-website-portfolio/index.html",
-    "main.f30c970d.css.map": "/new-website-portfolio/static/css/main.f30c970d.css.map",
-    "main.b1e0bfa4.js.map": "/new-website-portfolio/static/js/main.b1e0bfa4.js.map",
+    "main.5c63aabb.css.map": "/new-website-portfolio/static/css/main.5c63aabb.css.map",
+    "main.3009dbb2.js.map": "/new-website-portfolio/static/js/main.3009dbb2.js.map",
     "787.d37cafcc.chunk.js.map": "/new-website-portfolio/static/js/787.d37cafcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f30c970d.css",
-    "static/js/main.b1e0bfa4.js"
+    "static/css/main.5c63aabb.css",
+    "static/js/main.3009dbb2.js"
   ]
 }
