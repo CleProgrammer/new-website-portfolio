@@ -64,6 +64,7 @@
     .projects-main {
         width: 80%;
         height: 170px;
+        justify-content: space-between;
     }
 
     .projects-main .title-projects {
@@ -81,6 +82,11 @@
 
     .projects-main div {
         text-align: center;
-        font-size: 5px;
+        font-size: 5.3px;
+    }
+
+    .projects-main div img {
+        width: 110%;
     }
 }
+

@@ -63,6 +63,7 @@
 /*MOBILE*/
 @media ( max-width: 480px ) {
     .header-main {
+        justify-content: space-between;
         width: 80%;
         height: 3.5em;
     }
@@ -80,7 +81,7 @@
     }
 
     .header-main .box-header2 {
-        width: 3em;
+        width: 2em;
     }
 
     .menu-mobile {
@@ -104,5 +105,4 @@
         text-align: center;
     }
 }
-
 
