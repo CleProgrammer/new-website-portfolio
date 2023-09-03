@@ -46,7 +46,7 @@ export default function Header() {
 
     return (
         <div className="header-main">
-            <div className='box-header1'><img src={LogoCB}/></div>
+            <div className='box-header1'><a href=''><img src={LogoCB}/></a></div>
             <div className='box-header2'>
                 <div id='disable' className='menu-mobile' onClick={openMobileMenu}>
                     <ul style={{listStyleType: 'none'}}>

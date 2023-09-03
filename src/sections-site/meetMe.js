@@ -1,10 +1,6 @@
-import { useState, useEffect } from 'react'
-import CertReact from '../images/certificados/Certificado ReactJS.jpg'
-import CertHTML from '../images/certificados/Certificado HTML5 e CSS3.jpg'
-import CertJavaScript from '../images/certificados/Certificado Javascript.jpg'
-import Certdatabase from '../images/certificados/Certificado Banco de Dados.jpg'
-import CertgitHub from '../images/certificados/Certificado Git GitHub.jpg'
-import CertTypeScript from '../images/certificados/Certificado Typescript.jpg'
+import LogoCb from '../images/logos/cb-icon-blue.png'
+import LogoCbWhite from '../images/logos/cb-icon.png'
+
 import './meetme.css'
 
 export default function Meetme() {
@@ -22,12 +18,10 @@ export default function Meetme() {
                     </div>
                 </div>
                 <div className='introduce-section-cert'>
-                    <img src={CertReact}/>
-                    <img src={CertHTML}/>
-                    <img src={CertJavaScript}/>
-                    <img src={Certdatabase}/>
-                    <img src={CertgitHub}/>
-                    <img src={CertTypeScript}/>
+                    <img className='image-logo1' src={LogoCbWhite}/>
+                    <img className='image-logo2' src={LogoCb}/>
+                    <img className='image-logo3' src={LogoCbWhite}/>
+                    <img className='image-logo4' src={LogoCb}/>
                 </div>
             </div>
             

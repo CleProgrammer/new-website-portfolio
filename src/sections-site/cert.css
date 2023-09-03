@@ -9,7 +9,7 @@
 
 .section-cert .section-cert-main {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 80%;
     height: 260px;
@@ -22,7 +22,8 @@
     align-items: center;
     font-size: 18px;
     color: white;
-    height: 200px;
+    width: 150px;
+    height: 180px;
 }
 
 .section-cert .section-cert-main div a {
@@ -40,7 +41,7 @@
 }
 
 .section-cert .section-cert-main div img {
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -89,6 +90,8 @@
     }
 
     .section-cert .section-cert-main div a {
-        font-size: 14px;
+        width: 40px;
+        height: 20px;
+        font-size: 12px;
     }
 }
