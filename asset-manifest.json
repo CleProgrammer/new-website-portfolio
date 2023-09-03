@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-website-portfolio/static/css/main.3a301f51.css",
-    "main.js": "/new-website-portfolio/static/js/main.3009dbb2.js",
+    "main.css": "/new-website-portfolio/static/css/main.cba337b8.css",
+    "main.js": "/new-website-portfolio/static/js/main.9e5ec6dc.js",
     "static/js/787.d37cafcc.chunk.js": "/new-website-portfolio/static/js/787.d37cafcc.chunk.js",
     "static/media/meetme2.jpg": "/new-website-portfolio/static/media/meetme2.aabc7b5e5ca20f03973d.jpg",
     "static/media/Certificado Banco de Dados.jpg": "/new-website-portfolio/static/media/Certificado Banco de Dados.f5ac11ee0232d37bd6b7.jpg",
@@ -13,16 +13,18 @@
     "static/media/sitefilmes.png": "/new-website-portfolio/static/media/sitefilmes.c96d837e26fdb9439ed2.png",
     "static/media/siteportfólio.png": "/new-website-portfolio/static/media/siteportfólio.9842e9360feba0a0ec84.png",
     "static/media/compras.png": "/new-website-portfolio/static/media/compras.e1de8dcc92c528770563.png",
+    "static/media/cb-icon.png": "/new-website-portfolio/static/media/cb-icon.525a6b9e6678e50b403c.png",
     "static/media/cb-logo-blue.png": "/new-website-portfolio/static/media/cb-logo-blue.20c5f607bbb4cfcece40.png",
+    "static/media/cb-icon-blue.png": "/new-website-portfolio/static/media/cb-icon-blue.2a61e1bd45ff70795548.png",
     "static/media/openmenumobile.png": "/new-website-portfolio/static/media/openmenumobile.efc3a1cc3b1c5398ba3b.png",
     "static/media/openmenumobilerotate.png": "/new-website-portfolio/static/media/openmenumobilerotate.8e41213262774577bb2a.png",
     "index.html": "/new-website-portfolio/index.html",
-    "main.3a301f51.css.map": "/new-website-portfolio/static/css/main.3a301f51.css.map",
-    "main.3009dbb2.js.map": "/new-website-portfolio/static/js/main.3009dbb2.js.map",
+    "main.cba337b8.css.map": "/new-website-portfolio/static/css/main.cba337b8.css.map",
+    "main.9e5ec6dc.js.map": "/new-website-portfolio/static/js/main.9e5ec6dc.js.map",
     "787.d37cafcc.chunk.js.map": "/new-website-portfolio/static/js/787.d37cafcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a301f51.css",
-    "static/js/main.3009dbb2.js"
+    "static/css/main.cba337b8.css",
+    "static/js/main.9e5ec6dc.js"
   ]
 }
