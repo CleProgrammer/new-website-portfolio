@@ -64,7 +64,7 @@
 
 
 /*MOBILE*/
-@media ( max-width: 414px ) {
+@media ( max-width: 480px ) {
     .section-cert {
         height: 290px;
         justify-content: center;
@@ -78,9 +78,9 @@
     }
 
     .section-cert .section-cert-main div {
-        font-size: 14px;
+        font-size: 12px;
         height: 100px;
-        width: 80px;
+        width: 90px;
         text-align: center;
     }
 

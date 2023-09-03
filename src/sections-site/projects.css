@@ -60,7 +60,7 @@
 
 
 /*MOBILE*/
-@media ( max-width: 414px ) {
+@media ( max-width: 480px ) {
     .projects-main {
         width: 80%;
         height: 170px;
