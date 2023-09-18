@@ -21,7 +21,7 @@ export default function Projects() {
                 <h1>Antigo Site de Portfólio</h1>
             </div>
             <div>
-                <a><img src={ImgCompras}/></a>
+                <a href='https://cleprogrammer.github.io/website-supermarket/' target='_blanked'><img src={ImgCompras}/></a>
                 <h1>Site de Compras</h1>
             </div>
         </div>
