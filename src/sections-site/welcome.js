@@ -1,14 +1,29 @@
 import './welcome.css'
+import Portuguese from '../languages/portuguese'
+import English from '../languages/english'
+import Getlanguage from '../getLanguage/getlanguage'
+
 
 export default function Welcome() {
     return (
         <div className='welcome-main'>
-            <div className='about-me'>sobre mim</div>
+            <div className='about-me'>
+                {Getlanguage() === 'portuguese' && (
+                    Portuguese().aboutMe[0]
+                )}
+
+                {Getlanguage() === 'english' && (
+                    English().aboutMe[0]
+                )}
+            </div>
             <div className='about-me2'>
-            Desenvolvedor Front-End, sempre buscando evoluir mais a cada dia, tenho certificação em React.js, HTML5, CSS3, JavaScript, banco de dados e TypeScript, mas também buscando aprender outras linguagens de programação.
+                {Getlanguage() === 'portuguese' && (
+                        Portuguese().aboutMe[1]
+                    )}
 
-            Tenho foco e muita dedicação no que eu faço, principalmente na área de tecnologia. Me considero uma pessoa que gosta de desafios para fortalecer meus conhecimentos.
-
+                {Getlanguage() === 'english' && (
+                    English().aboutMe[1]
+                )}
             </div>
         </div>
     )

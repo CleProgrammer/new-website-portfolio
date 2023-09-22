@@ -1,6 +1,8 @@
 import LogoCb from '../images/logos/cb-icon-blue.png'
 import LogoCbWhite from '../images/logos/cb-icon.png'
-
+import Portuguese from '../languages/portuguese'
+import English from '../languages/english'
+import Getlanguage from '../getLanguage/getlanguage'
 import './meetme.css'
 
 export default function Meetme() {
@@ -11,10 +13,23 @@ export default function Meetme() {
             <div className='section-meet-me-main'>
                 <div className='introduce-myself'>
                     <div className='text1'>
-                        Olá, eu sou Clebson, desenvolvedor front-end_
+                        {Getlanguage() === 'portuguese' && (
+                            Portuguese().mainSection[0]
+                        )}
+
+                        {Getlanguage() === 'english' && (
+                            English().mainSection[0]
+                        )}
+                        
                     </div>
                     <div className='text2'>
-                        {'<Sempre buscando evoluir mais a cada dia/>'}
+                        {Getlanguage() === 'portuguese' && (
+                            Portuguese().mainSection[1]
+                        )}
+
+                        {Getlanguage() === 'english' && (
+                            English().mainSection[1]
+                        )}
                     </div>
                 </div>
                 <div className='introduce-section-cert'>

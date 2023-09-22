@@ -1,5 +1,8 @@
 import './footer.css'
 import $ from 'jquery'
+import Portuguese from '../languages/portuguese'
+import English from '../languages/english'
+import Getlanguage from '../getLanguage/getlanguage'
 
 export default function Footer() {
     const c = (cl) => document.querySelector(cl)
@@ -9,11 +12,11 @@ export default function Footer() {
             $('html, body').animate({
                 scrollTop: 0
             }, 500)
-        } else if( e.target.id === 'aboutme' ) {
+        } else if( e.target.id === 'about me' ) {
             $('html, body').animate({
                 scrollTop: 230
             }, 500)
-        } else if( e.target.id === 'cert' ) {
+        } else if( e.target.id === 'certificates' ) {
             $('html, body').animate({
                 scrollTop: 550
             }, 500)
@@ -28,10 +31,18 @@ export default function Footer() {
         <div className='footer-main'>
             <div className='footer-container'>
                 <div>
-                    <a id='home' onClick={sitePlace}>HOME</a>
-                    <a id='aboutme' onClick={sitePlace}>SOBRE MIM</a>
-                    <a id='cert' onClick={sitePlace}>CERTIFICADOS</a>
-                    <a id='projects' onClick={sitePlace}>PROJETOS</a>
+                    {Getlanguage() === 'portuguese' && (
+                        Portuguese().footer.map((item) => (
+                            <a id={item.toLowerCase()} onClick={sitePlace}>{item}</a>
+                        ) )
+                    )}
+
+                    {Getlanguage() === 'english' && (
+                        English().footer.map((item) => (
+                            <a id={item.toLowerCase()} onClick={sitePlace}>{item}</a>
+                        ) )
+                    )}
+        
                 </div>
                 <div>
                     <a href='https://www.linkedin.com/in/clebson-barbosa-7976a677/' target='_blanked'>LINKEDIN</a>
