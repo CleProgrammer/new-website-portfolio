@@ -10,6 +10,11 @@ export default function Projects() {
     return (
         <div className="projects-main">
             <div className='title-projects'>
+                {Getlanguage() === null && (
+                    Portuguese().projects[0]
+                )}
+
+
                 {Getlanguage() === 'portuguese' && (
                     Portuguese().projects[0]
                 )}
@@ -24,9 +29,13 @@ export default function Projects() {
             <div>
                 <a href='https://cleprogrammer.github.io/movies-website/'target='_blanked'><img src={ImgStreaming}/></a>
                 <h1>
+                    {Getlanguage() === null && (
+                            Portuguese().projects[1]
+                    )}
+
                     {Getlanguage() === 'portuguese' && (
                             Portuguese().projects[1]
-                        )}
+                    )}
 
                     {Getlanguage() === 'english' && (
                         English().projects[1]
@@ -36,9 +45,13 @@ export default function Projects() {
             <div>
                 <a href='https://cleprogrammer.github.io/my-portfolio/' target='_blanked'><img src={ImgOldSite}/></a>
                 <h1>
+                    {Getlanguage() === null && (
+                            Portuguese().projects[2]
+                    )}
+
                     {Getlanguage() === 'portuguese' && (
                             Portuguese().projects[2]
-                        )}
+                    )}
 
                     {Getlanguage() === 'english' && (
                         English().projects[2]
@@ -48,9 +61,13 @@ export default function Projects() {
             <div>
                 <a href='https://cleprogrammer.github.io/website-supermarket/' target='_blanked'><img src={ImgCompras}/></a>
                 <h1>
+                    {Getlanguage() === null && (
+                            Portuguese().projects[3]
+                    )}
+
                     {Getlanguage() === 'portuguese' && (
                             Portuguese().projects[3]
-                        )}
+                    )}
 
                     {Getlanguage() === 'english' && (
                         English().projects[3]

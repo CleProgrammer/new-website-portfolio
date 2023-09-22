@@ -137,13 +137,21 @@ export default function Header() {
         localStorage.setItem('language', 'english')
     }
 
+    console.log( Getlanguage() )
+
     return (
         <div className="header-main">
             <div className='box-header1'><a href=''><img src={LogoCB}/></a></div>
             <div className='box-header2'>
                 <div id='disable' className='menu-mobile' onClick={openMobileMenu}>
                     <ul style={{listStyleType: 'none'}}>
-                    { Getlanguage() === 'portuguese' && (
+                    { Getlanguage() === null && (
+                        Portuguese().header.map((item) => (
+                            <li id={item.toLowerCase()} onClick={sitePlace}>{item}</li>
+                        ) )
+                    )}
+
+                    { Getlanguage() === 'portuguese' || Getlanguage() === null && (
                         Portuguese().header.map((item) => (
                             <li id={item.toLowerCase()} onClick={sitePlace}>{item}</li>
                         ) )
@@ -157,6 +165,12 @@ export default function Header() {
                     </ul>
                 </div>
                 <ul className='menu-desktop' style={{listStyleType: 'none'}}>
+                    { Getlanguage() === null && (
+                        Portuguese().header.map((item) => (
+                            <li id={item.toLowerCase()} onClick={sitePlace}>{item}</li>
+                        ) )
+                    )}
+
                     { Getlanguage() === 'portuguese' && (
                         Portuguese().header.map((item) => (
                             <li id={item.toLowerCase()} onClick={sitePlace}>{item}</li>

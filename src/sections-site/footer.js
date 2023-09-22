@@ -31,7 +31,13 @@ export default function Footer() {
         <div className='footer-main'>
             <div className='footer-container'>
                 <div>
-                    {Getlanguage() === 'portuguese' && (
+                    {Getlanguage() === null && (
+                        Portuguese().footer.map((item) => (
+                            <a id={item.toLowerCase()} onClick={sitePlace}>{item}</a>
+                        ) )
+                    )}
+
+                    {Getlanguage() === 'portuguese'&& (
                         Portuguese().footer.map((item) => (
                             <a id={item.toLowerCase()} onClick={sitePlace}>{item}</a>
                         ) )

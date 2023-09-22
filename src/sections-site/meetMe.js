@@ -13,6 +13,10 @@ export default function Meetme() {
             <div className='section-meet-me-main'>
                 <div className='introduce-myself'>
                     <div className='text1'>
+                        {Getlanguage() === null && (
+                            Portuguese().mainSection[1]
+                        )}
+
                         {Getlanguage() === 'portuguese' && (
                             Portuguese().mainSection[0]
                         )}
@@ -23,6 +27,10 @@ export default function Meetme() {
                         
                     </div>
                     <div className='text2'>
+                        {Getlanguage() === null && (
+                            Portuguese().mainSection[1]
+                        )}
+
                         {Getlanguage() === 'portuguese' && (
                             Portuguese().mainSection[1]
                         )}

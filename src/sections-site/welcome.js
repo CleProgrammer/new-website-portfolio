@@ -8,6 +8,10 @@ export default function Welcome() {
     return (
         <div className='welcome-main'>
             <div className='about-me'>
+                {Getlanguage() === null && (
+                        Portuguese().aboutMe[1]
+                )}
+
                 {Getlanguage() === 'portuguese' && (
                     Portuguese().aboutMe[0]
                 )}
@@ -17,9 +21,13 @@ export default function Welcome() {
                 )}
             </div>
             <div className='about-me2'>
+                {Getlanguage() === null && (
+                        Portuguese().aboutMe[1]
+                )}
+
                 {Getlanguage() === 'portuguese' && (
                         Portuguese().aboutMe[1]
-                    )}
+                )}
 
                 {Getlanguage() === 'english' && (
                     English().aboutMe[1]
