@@ -14,7 +14,7 @@ export default function Meetme() {
                 <div className='introduce-myself'>
                     <div className='text1'>
                         {Getlanguage() === null && (
-                            Portuguese().mainSection[1]
+                            Portuguese().mainSection[0]
                         )}
 
                         {Getlanguage() === 'portuguese' && (

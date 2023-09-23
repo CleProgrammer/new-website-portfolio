@@ -9,7 +9,7 @@ export default function Welcome() {
         <div className='welcome-main'>
             <div className='about-me'>
                 {Getlanguage() === null && (
-                        Portuguese().aboutMe[1]
+                        Portuguese().aboutMe[0]
                 )}
 
                 {Getlanguage() === 'portuguese' && (
