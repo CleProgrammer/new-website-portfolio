@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-website-portfolio/static/css/main.b88cbcb6.css",
-    "main.js": "/new-website-portfolio/static/js/main.c6da30a8.js",
+    "main.js": "/new-website-portfolio/static/js/main.b35275cf.js",
     "static/js/787.d37cafcc.chunk.js": "/new-website-portfolio/static/js/787.d37cafcc.chunk.js",
     "static/media/meetme2.jpg": "/new-website-portfolio/static/media/meetme2.aabc7b5e5ca20f03973d.jpg",
     "static/media/Certificado Banco de Dados.jpg": "/new-website-portfolio/static/media/Certificado Banco de Dados.f5ac11ee0232d37bd6b7.jpg",
@@ -14,6 +14,7 @@
     "static/media/siteportfólio.png": "/new-website-portfolio/static/media/siteportfólio.9842e9360feba0a0ec84.png",
     "static/media/compras.png": "/new-website-portfolio/static/media/compras.f922a1684a0c7aa2cf8e.png",
     "static/media/brazilflag.jpg": "/new-website-portfolio/static/media/brazilflag.cf6e1797601b3231f02d.jpg",
+    "static/media/siteexchange.jpg": "/new-website-portfolio/static/media/siteexchange.a50b41b35a58125415db.jpg",
     "static/media/nightSite.png": "/new-website-portfolio/static/media/nightSite.ae6df277e2abc5c249dd.png",
     "static/media/cb-icon.png": "/new-website-portfolio/static/media/cb-icon.525a6b9e6678e50b403c.png",
     "static/media/cb-logo-blue.png": "/new-website-portfolio/static/media/cb-logo-blue.20c5f607bbb4cfcece40.png",
@@ -23,11 +24,11 @@
     "static/media/usaflag.webp": "/new-website-portfolio/static/media/usaflag.dd59c21a841bfbe82594.webp",
     "index.html": "/new-website-portfolio/index.html",
     "main.b88cbcb6.css.map": "/new-website-portfolio/static/css/main.b88cbcb6.css.map",
-    "main.c6da30a8.js.map": "/new-website-portfolio/static/js/main.c6da30a8.js.map",
+    "main.b35275cf.js.map": "/new-website-portfolio/static/js/main.b35275cf.js.map",
     "787.d37cafcc.chunk.js.map": "/new-website-portfolio/static/js/787.d37cafcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b88cbcb6.css",
-    "static/js/main.c6da30a8.js"
+    "static/js/main.b35275cf.js"
   ]
 }
