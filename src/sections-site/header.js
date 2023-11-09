@@ -76,6 +76,7 @@ export default function Header() {
             c('.projects-main .title-division').style.border = '2px solid rgb(0, 86, 199)'
 
             c('.footer-main').style.backgroundColor = 'rgb(0, 61, 173)'
+            c('.section-cert').style.backgroundColor = 'rgb(3, 76, 172)'
             
         }
 
@@ -137,7 +138,7 @@ export default function Header() {
         localStorage.setItem('language', 'english')
     }
 
-    console.log( Getlanguage() )
+    //console.log( Getlanguage() )
 
     return (
         <div className="header-main">
@@ -151,7 +152,7 @@ export default function Header() {
                         ) )
                     )}
 
-                    { Getlanguage() === 'portuguese' || Getlanguage() === null && (
+                    { Getlanguage() === 'portuguese' && (
                         Portuguese().header.map((item) => (
                             <li id={item.toLowerCase()} onClick={sitePlace}>{item}</li>
                         ) )
