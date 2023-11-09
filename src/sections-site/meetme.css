@@ -166,11 +166,12 @@
     }
     
     .section-meet-me .introduce-myself .text2 {
-        text-align: start;
+        display: none;
+        /*text-align: start;
         width: 100%;
         font-size: 2.8vw;
         color: rgb(255, 255, 255);
-        text-shadow: 2px 2px rgb(54, 54, 54);
+        text-shadow: 2px 2px rgb(54, 54, 54);*/
     }
 }
 

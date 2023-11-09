@@ -23,7 +23,7 @@
 
 .welcome-main .about-me2 {
     width: 80%;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 600;
     color: rgb(141, 141, 141);
 }
@@ -53,10 +53,13 @@
 @media ( max-width: 480px ) {
     .welcome-main {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: start;
+        align-items: start;
         width: 80%;
         height: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        overflow-x: scroll;
     }
     
     .welcome-main .about-me {
@@ -65,10 +68,8 @@
     
     .welcome-main .about-me2 {
         width: 100%;
-        font-size: 0.6em;
-        font-weight: 600;
-        color: rgb(141, 141, 141);
+        font-size: 1.1em;
+        color: #8d8d8d;
     }
-    
 }
 

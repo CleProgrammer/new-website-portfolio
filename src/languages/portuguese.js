@@ -2,9 +2,9 @@ export default function Portuguese() {
     let portuguese = {
         header: ['HOME', 'SOBRE MIM', 'CERTIFICADOS', 'PROJETOS', 'CONTATOS'],
         mainSection: ['Olá, eu sou Clebson, desenvolvedor front-end', '<Sempre buscando evoluir mais a cada dia/>'],
-        aboutMe: ['sobre mim', 'Desenvolvedor Front-End, sempre buscando evoluir mais a cada dia, tenho certificação em React.js, HTML5, CSS3, JavaScript, banco de dados e TypeScript, mas também buscando aprender outras linguagens de programação. Tenho foco e muita dedicação no que eu faço, principalmente na área de tecnologia. Me considero uma pessoa que gosta de desafios para fortalecer meus conhecimentos.'],
+        aboutMe: ['sobre mim', 'Desenvolvedor Front-End, criei projetos pessoais onde utilizei todas as linguagens de programação que tenho certificações, principalmente a biblioteca React.js. Além de estarem totalmente responsivos para aparelhos mobile, utilizo conexão com MySQL para guardar informações de login, conexão com api para listar produtos em uma loja online e utilização de filtros para o cliente encontrar com mais exatidão o produto que deseja. Possuo proficiência avançada em inglês, incluindo habilidades sólidas de conversação, escrita e compreensão auditiva, adquiridas por alguns anos de estudo.'],
         certificates: [['VER', 'ReactJS'], ['VER', 'HTML e CSS'], ['VER', 'JavaScript'], ['VER', 'Banco de Dados'], ['VER', 'Git/GitHub'], ['VER', 'TypeScript']],
-        projects: ['P R O J E T O S', 'Site de Streaming', 'Conversor de Moeda', 'Site de Compras'],
+        projects: ['P R O J E T O S', 'Site de Streaming', 'Conversor de Moedas', 'Site de Compras'],
         footer: ['HOME', 'SOBRE MIM', 'CERTIFICADOS', 'PROJETOS']
     }
 
