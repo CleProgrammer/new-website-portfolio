@@ -57,3 +57,12 @@
         height: 75px;
     }
 }
+
+
+/*Extra large screens*/
+@media (min-width: 1920px) {
+    .footer-main .footer-container div {
+        height: 115px;
+    }
+}
+

@@ -87,10 +87,32 @@
 
 
 
-/*TABLET*/
-@media ( max-width: 768px ) {
+/*Small tablets*/
+@media ( min-width: 768px ) and ( max-width: 991px ) {
+    .header-main img {
+        width: 80%;
+    }
+
+    .header-main .box-header2 {
+        display: flex;
+        width: 30em;
+        color: rgb(0, 99, 165);
+        font-size: 13px;
+    }
+
+    .header-main .box-header3 {
+        margin-left: 13vw;
+    }
+
+    .header-main .box-header3 .theme-modes img {
+        width: 35%;
+    }
     
+    .header-main .box-header3 .choose-language a {
+        width: 65%;
+    }
 }
+
 
 /*MOBILE*/
 @media ( max-width: 480px ) {
@@ -155,6 +177,14 @@
 
     .header-main .box-header3 .choose-language {
         width: 60%;
+    }
+}
+
+
+/*Extra large screens*/
+@media (min-width: 1920px) {
+    .header-main img {
+        width: 55%;
     }
 }
 

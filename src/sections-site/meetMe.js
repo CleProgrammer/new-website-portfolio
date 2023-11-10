@@ -26,19 +26,7 @@ export default function Meetme() {
                         )}
                         
                     </div>
-                    <div className='text2'>
-                        {Getlanguage() === null && (
-                            Portuguese().mainSection[1]
-                        )}
-
-                        {Getlanguage() === 'portuguese' && (
-                            Portuguese().mainSection[1]
-                        )}
-
-                        {Getlanguage() === 'english' && (
-                            English().mainSection[1]
-                        )}
-                    </div>
+                    
                 </div>
                 <div className='introduce-section-cert'>
                     <img className='image-logo1' src={LogoCbWhite}/>

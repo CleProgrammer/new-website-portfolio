@@ -30,8 +30,8 @@
 
 
 
-/*TABLET*/
-@media ( max-width: 820px ) {
+/*Small tablets*/
+@media ( min-width: 768px ) and ( max-width: 991px ) {
     .welcome-main {
         height: 200px;
     }
@@ -44,8 +44,11 @@
     }
 
     .welcome-main .about-me2 {
+        height: 90%;
+        justify-content: start;
+        overflow-x: scroll;
         width: 70%;
-        font-size: 1em;
+        font-size: 1.5em;
     }
 }
 
@@ -70,6 +73,15 @@
         width: 100%;
         font-size: 1.1em;
         color: #8d8d8d;
+    }
+}
+
+
+/*Extra large screens*/
+@media (min-width: 1920px) {
+    .welcome-main .about-me2 {
+        width: 85%;
+        font-size: 1.5em;
     }
 }
 
