@@ -11,7 +11,7 @@ import Getlanguage from '../getLanguage/getlanguage'
 
 export default function Cert() {
     return(
-        <div className='section-cert'>
+        <div className='section-cert' data-aos="fade-up" data-aos-duration="600">
             <div className='section-cert-main'>
                 <div>
                     <img src={CertReact}/>

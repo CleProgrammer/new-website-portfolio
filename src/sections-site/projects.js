@@ -9,7 +9,7 @@ import Getlanguage from '../getLanguage/getlanguage'
 
 export default function Projects() {
     return (
-        <div className="projects-main">
+        <div className="projects-main" data-aos="fade-up" data-aos-duration="600">
             <div className='title-projects'>
                 {Getlanguage() === null && (
                     Portuguese().projects[0]
