@@ -12,17 +12,17 @@ export default function Footer() {
             $('html, body').animate({
                 scrollTop: 0
             }, 500)
-        } else if( e.target.id === 'about me' ) {
+        } else if( e.target.id === 'aboutme' || e.target.id === 'sobre mim' ) {
             $('html, body').animate({
-                scrollTop: 230
+                scrollTop: 450
             }, 500)
-        } else if( e.target.id === 'certificates' ) {
+        } else if( e.target.id === 'cert' || e.target.id === 'certificados' ) {
             $('html, body').animate({
-                scrollTop: 550
+                scrollTop: 700
             }, 500)
-        } else if( e.target.id === 'projects' ) {
+        } else if( e.target.id === 'projects' || e.target.id === 'projetos' ) {
             $('html, body').animate({
-                scrollTop: 800
+                scrollTop: 950
             }, 500)
         }
     }

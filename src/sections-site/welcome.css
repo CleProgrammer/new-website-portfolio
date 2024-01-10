@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    height: 250px;
+    height: 35vh;
 }
 
 .welcome-main .about-me {
@@ -12,9 +12,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 180px;
-    height: 180px;
-    font-size: 55px;
+    width: 13.5vw;
+    height: 13.5vw;
+    font-size: 4vw;
     font-weight: bold;
     color: white;
     background-color: rgb(21, 92, 184);
@@ -23,7 +23,7 @@
 
 .welcome-main .about-me2 {
     width: 80%;
-    font-size: 1.2em;
+    font-size: 1.5vw;
     font-weight: 600;
     color: rgb(141, 141, 141);
 }
@@ -78,10 +78,10 @@
 
 
 /*Extra large screens*/
-@media (min-width: 1920px) {
+/*@media (min-width: 1920px) {
     .welcome-main .about-me2 {
         width: 85%;
         font-size: 1.5em;
     }
-}
+}*/
 

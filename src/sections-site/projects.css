@@ -3,14 +3,14 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    height: 280px;
+    height: 42vh;
     color: rgb(0, 83, 190);
 }
 
 .projects-main .title-projects {
-    width: 6%;
+    width: 10%;
     height: 100%;
-    font-size: 2.5vw;
+    font-size: 3vw;
     /*color: rgb(0, 83, 190);*/
     font-weight: bolder;
     font-family: Arial Black;
@@ -19,7 +19,7 @@
 .projects-main .title-division {
     width: 0;
     height: 65%;
-    border: 2px solid rgb(0, 86, 199);
+    border: 0.2vw solid rgb(0, 86, 199);
 }
 
 .projects-main div {
@@ -30,7 +30,7 @@
     text-align: center;
     width: 20%;
     height: 70%;
-    font-size: 9px;
+    font-size: 0.7vw;
     font-weight: 600;
     /*color: rgb(0, 78, 180);*/
 }
@@ -96,7 +96,7 @@
 
 
 /*Extra large screens*/
-@media (min-width: 1920px) {
+/*@media (min-width: 1920px) {
     .projects-main .title-projects {
         font-size: 2.5em;
     }
@@ -112,5 +112,5 @@
         font-weight: 600;
         width: 18%;
     }
-}
+}*/
 
