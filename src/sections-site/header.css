@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    height: 4.5em;
+    height: 10vh;
 }
 
 .header-main .box-header1 {
@@ -19,7 +19,7 @@
 
 .header-main .box-header2 {
     display: flex;
-    width: 30em;
+    width: 36vw;
     color: rgb(0, 99, 165);
 }
 
@@ -28,13 +28,19 @@
     width: 100%;
     justify-content: space-between;
     font-weight: 500;
-    font-size: 105%;
+    font-size: 1.3vw;
     padding: 0; 
 }
 
 .header-main ul li {
     cursor: pointer;
 }
+
+.header-main ul li:hover {
+    color: gray;
+}
+
+
 
 .menu-mobile {
     background-image: url('../images/openmenumobile.png');
@@ -182,9 +188,9 @@
 
 
 /*Extra large screens*/
-@media (min-width: 1920px) {
+/*@media (min-width: 1920px) {
     .header-main img {
         width: 55%;
     }
-}
+}*/
 
