@@ -1,6 +1,6 @@
 import './projects.css'
 import ImgStreaming from '../images/projetos/sitefilmes.png'
-import ImgOldSite from '../images/projetos/siteportfólio.png'
+import ImgDesign from '../images/projetos/portfoliodesigner.png'
 import ImgCompras from '../images/projetos/compras.png'
 import ImgExchange from '../images/projetos/siteexchange.jpg'
 import Portuguese from '../languages/portuguese'
@@ -28,7 +28,7 @@ export default function Projects() {
 
             </div>
             <div>
-                <a href='https://cleprogrammer.github.io/movies-website/'target='_blanked'><img src={ImgStreaming}/></a>
+                <a href='https://cleprogrammer.github.io/designer-portfolio/'target='_blanked'><img src={ImgDesign}/></a>
                 <h1>
                     {Getlanguage() === null && (
                             Portuguese().projects[1]
