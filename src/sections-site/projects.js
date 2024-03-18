@@ -4,7 +4,7 @@ import ImgDesign from '../images/projetos/portfoliodesigner.png'
 import ImgCompras from '../images/projetos/compras.png'
 import ImgExchange from '../images/projetos/siteexchange.jpg'
 import ImgChat from '../images/projetos/talktochatgpt.jpg'
-import ImgMovies from '../images/projetos/sitefilmes.png'
+import ImgJogodaVelha from '../images/projetos/jogodavelha.png'
 import ImgExtension from '../images/projetos/extensão.png'
 import Portuguese from '../languages/portuguese'
 import English from '../languages/english'
@@ -98,7 +98,7 @@ export default function Projects() {
 
 
                 <div>
-                    <a href='https://cleprogrammer.github.io/movies-website/' target='_blanked'><img src={ImgMovies}/></a>
+                    <a href='https://cleprogrammer.github.io/jogo-da-velha/' target='_blanked'><img src={ImgJogodaVelha}/></a>
                     <h1>
                         {Getlanguage() === null && (
                                 Portuguese().projects[5]
