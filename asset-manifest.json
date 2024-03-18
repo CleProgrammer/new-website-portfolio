@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-website-portfolio/static/css/main.6e0d20de.css",
-    "main.js": "/new-website-portfolio/static/js/main.84dd8474.js",
+    "main.css": "/new-website-portfolio/static/css/main.bf49cc24.css",
+    "main.js": "/new-website-portfolio/static/js/main.bedc97ba.js",
     "static/js/787.d37cafcc.chunk.js": "/new-website-portfolio/static/js/787.d37cafcc.chunk.js",
     "static/media/meetme2.jpg": "/new-website-portfolio/static/media/meetme2.aabc7b5e5ca20f03973d.jpg",
     "static/media/Certificado Banco de Dados.jpg": "/new-website-portfolio/static/media/Certificado Banco de Dados.f5ac11ee0232d37bd6b7.jpg",
@@ -10,9 +10,11 @@
     "static/media/Certificado Typescript.jpg": "/new-website-portfolio/static/media/Certificado Typescript.625f91bece55f67ee4d4.jpg",
     "static/media/Certificado Javascript.jpg": "/new-website-portfolio/static/media/Certificado Javascript.787972a8f1d78430cade.jpg",
     "static/media/Certificado ReactJS.jpg": "/new-website-portfolio/static/media/Certificado ReactJS.b5a2409422b78717c465.jpg",
+    "static/media/extensão.png": "/new-website-portfolio/static/media/extensão.bb7bbc87da8dea06f142.png",
     "static/media/sitefilmes.png": "/new-website-portfolio/static/media/sitefilmes.c96d837e26fdb9439ed2.png",
     "static/media/compras.png": "/new-website-portfolio/static/media/compras.f922a1684a0c7aa2cf8e.png",
     "static/media/brazilflag.jpg": "/new-website-portfolio/static/media/brazilflag.cf6e1797601b3231f02d.jpg",
+    "static/media/talktochatgpt.jpg": "/new-website-portfolio/static/media/talktochatgpt.c9dc8315d3e5b946d0ac.jpg",
     "static/media/siteexchange.jpg": "/new-website-portfolio/static/media/siteexchange.a50b41b35a58125415db.jpg",
     "static/media/portfoliodesigner.png": "/new-website-portfolio/static/media/portfoliodesigner.09e6cdc4062cfd52306d.png",
     "static/media/nightSite.png": "/new-website-portfolio/static/media/nightSite.ae6df277e2abc5c249dd.png",
@@ -23,12 +25,12 @@
     "static/media/openmenumobilerotate.png": "/new-website-portfolio/static/media/openmenumobilerotate.8e41213262774577bb2a.png",
     "static/media/usaflag.webp": "/new-website-portfolio/static/media/usaflag.dd59c21a841bfbe82594.webp",
     "index.html": "/new-website-portfolio/index.html",
-    "main.6e0d20de.css.map": "/new-website-portfolio/static/css/main.6e0d20de.css.map",
-    "main.84dd8474.js.map": "/new-website-portfolio/static/js/main.84dd8474.js.map",
+    "main.bf49cc24.css.map": "/new-website-portfolio/static/css/main.bf49cc24.css.map",
+    "main.bedc97ba.js.map": "/new-website-portfolio/static/js/main.bedc97ba.js.map",
     "787.d37cafcc.chunk.js.map": "/new-website-portfolio/static/js/787.d37cafcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e0d20de.css",
-    "static/js/main.84dd8474.js"
+    "static/css/main.bf49cc24.css",
+    "static/js/main.bedc97ba.js"
   ]
 }
