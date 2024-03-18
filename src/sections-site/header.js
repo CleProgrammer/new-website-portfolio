@@ -31,13 +31,13 @@ export default function Header() {
                 scrollTop: 700
             }, 500)
         } else if( e.target.id === 'projects' || e.target.id === 'projetos' ) {
-            $('html, body').animate({
-                scrollTop: 950
-            }, 500)
+            c('.projects-main').scrollIntoView({
+                behavior: 'smooth'
+            })
         } else if( e.target.id === 'contacts' || 'contatos' ) {
-            $('html, body').animate({
-                scrollTop: 1000
-            }, 500)
+            c('.footer-main').scrollIntoView({
+                behavior: 'smooth'
+            })
         }
     }
 
@@ -73,7 +73,7 @@ export default function Header() {
             c('.section-cert').style.backgroundColor = 'rgb(rgb(3, 76, 172)'
 
             c('.projects-main').style.color = 'rgb(0, 83, 190)'
-            c('.projects-main .title-division').style.border = '2px solid rgb(0, 86, 199)'
+            //c('.projects-main .title-division').style.border = '2px solid rgb(0, 86, 199)'
 
             c('.footer-main').style.backgroundColor = 'rgb(0, 61, 173)'
             c('.section-cert').style.backgroundColor = 'rgb(3, 76, 172)'
@@ -100,7 +100,7 @@ export default function Header() {
             c('.welcome-main .about-me').style.backgroundColor = 'rgb(0, 23, 65)'
 
             c('.projects-main').style.color = 'white'
-            c('.projects-main .title-division').style.border = '2px solid white'
+            //c('.projects-main .title-division').style.border = '2px solid white'
 
             c('.footer-main').style.backgroundColor = 'rgb(0, 23, 65)'
             c('.section-cert').style.backgroundColor = 'rgb(0, 23, 65)'

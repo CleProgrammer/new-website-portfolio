@@ -1,45 +1,53 @@
 .projects-main {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    height: 42vh;
+    height: 100vh;
     color: rgb(0, 83, 190);
 }
 
 .projects-main .title-projects {
-    width: 10%;
-    height: 100%;
-    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    font-size: 4vw;
     /*color: rgb(0, 83, 190);*/
+    /*border-right: 5px solid rgb(0, 83, 190);*/
     font-weight: bolder;
     font-family: Arial Black;
 }
 
-.projects-main .title-division {
-    width: 0;
-    height: 65%;
-    border: 0.2vw solid rgb(0, 86, 199);
+.projects-main .section-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
 }
 
-.projects-main div {
+.projects-main .section-projects div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 20%;
-    height: 70%;
-    font-size: 0.7vw;
+    width: 30%;
+    height: 45%;
+    font-size: 0.9vw;
     font-weight: 600;
     /*color: rgb(0, 78, 180);*/
 }
 
-.projects-main div img {
+.projects-main .section-projects div img {
     width: 90%;
 }
 
-.projects-main div img:hover {
+.projects-main .section-projects div img:hover {
     opacity: 80%;
     cursor: pointer;
 }
@@ -53,10 +61,10 @@
         display: none;
     }
 
-    .projects-main div {
+    .projects-main .section-projects div {
         width: 45%;
         text-align: center;
-        font-size: 10px;
+        font-size: 13px;
     }
 }
 
@@ -66,7 +74,8 @@
     .projects-main {
         width: 80%;
         height: 170px;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
     }
 
     .projects-main .title-projects {
@@ -85,7 +94,7 @@
     .projects-main div {
         text-align: center;
         justify-content: center;
-        font-size: 7.5px;
+        font-size: 10px;
         width: 30%;
     }
 
